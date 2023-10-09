@@ -4,3 +4,9 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+
+let year = 2023;
+console.log (year)
+

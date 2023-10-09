@@ -6,3 +6,6 @@ const ONE_HUNDRED = 100;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+const percentage = (5 / 20) * ONE_HUNDRED
