@@ -13,3 +13,15 @@ let total;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+if (tip > 0) {
+    total = subtotal + subtotal * tip;
+} else {
+    total = subtotal;
+
+}
+console.log(total);
+
+console.log('Subtotal: $${subtotal}');
+console.log('Tip: $$tipAmount}');
+console.log('Total cost: $${total}');
