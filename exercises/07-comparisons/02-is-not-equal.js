@@ -11,3 +11,36 @@ let actualBMI = 27; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+if (targetBMI === actualBMI) {
+    isNotAtGoalWeight = false;
+} else if (targetBMI !== actualBMI) {
+    isNotAtGoalWeight = true;
+}
+
+
+const checkIn = (pilots, attendants) => {
+    console.log(`Checked in ${pilots} and ${attendants}`);
+};
+
+checkIn("Captain", "First Mate");
+checkIn("Steward", "Stewardess");
+
+
+const sign = (city, state) => {
+    return `Welcome to ${city}, ${state}`;
+
+};
+
+console.log(sign);
+
+
+
+
+
+const greet = () => {
+    console.log("Hello World");
+};
+
+const greeting = greet();
+console.log(greeting);
